@@ -1,0 +1,47 @@
+/* reset css chung */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+}
+a {
+  text-decoration:none;
+  color:inherit
+}
+ul,ol {
+  list-style:none
+}
+button,input,textarea,select {
+  font:inherit;
+  border:none;
+  outline:none;
+  background:none
+}
+table {
+  border-collapse:collapse;
+  border-spacing:0
+}
+
+/* biến css chung */
+:root{
+  --primary-color : #ffd400;
+  --text-color : #383821;
+  --white-color : #fff;
+  --height-head : 70px;
+}
+
+
+
+.container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 20px;
+}
+main {
+  padding: 40px 20px;
+  text-align: center;
+}
