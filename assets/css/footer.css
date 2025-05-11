@@ -1,8 +1,21 @@
-.site-footer {
-    background: #222;
-    color: #ccc;
-    text-align: center;
-    padding: 20px 0;
-    font-size: 14px;
-  }
-  
+.footer {
+  display: block;
+  padding-top: 30px;
+  border-top: 5px solid #ccc;
+}
+
+.footer-content {
+  max-width: 1250px;
+  height: auto;
+  margin: auto;
+}
+
+.footer-item {
+  width: 25%;
+  height: auto;
+  padding: 0 15px 30px;
+}
+
+.footer-item__img {
+  margin-bottom: 15px;
+}

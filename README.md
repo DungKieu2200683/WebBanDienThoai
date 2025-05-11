@@ -7,7 +7,7 @@
 
 
 # 2. Clone một dự án từ GitHub
-# git clone https://github.com/ten-nguoi-dung/ten-repo.git
+# git clone https://github.com/DungKieu2200683/WebBanDienThoai.git
 
 
 # 3. Khởi tạo Git trong thư mục (khi bắt đầu dự án mới)
