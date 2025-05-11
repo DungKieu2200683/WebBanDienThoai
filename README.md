@@ -28,7 +28,7 @@
 
 
 # 7. Kết nối repo local với GitHub
-# git remote add origin https://github.com/ten-nguoi-dung/ten-repo.git
+# git remote add origin https://github.com/DungKieu2200683/WebBanDienThoai.git
 
 
 # 8. Push code lên GitHub
