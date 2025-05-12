@@ -67,4 +67,8 @@
 # 14. Force push (ghi đè GitHub) — chỉ dùng khi cần!
 # git push --force
 
+# 15.  Xóa thay đổi cục bộ (Lệnh này sẽ hủy bỏ mọi thay đổi bạn đã thực hiện nhưng chưa commit.)
+# git reset --hard
+
+
 
