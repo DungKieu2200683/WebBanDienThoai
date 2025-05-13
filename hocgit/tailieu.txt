@@ -1,0 +1,65 @@
+1. Cài đặt ban đầu
+git config --global user.name "Tên của bạn"
+git config --global user.email "email@example.com"
+
+
+2. Khởi tạo hoặc clone project
+* Nếu bạn là người tạo dự án:
+    git init                            # Khởi tạo Git trong thư mục hiện tại
+    git remote add origin https://github.com/ten_user/ten_repo.git
+* Nếu bạn là người tham gia:
+    git clone https://github.com/ten_user/ten_repo.git
+
+
+3. Làm việc với nhánh (branch)
+git branch                         # Liệt kê các nhánh hiện có
+git branch ten-nhanh               # Tạo nhánh mới
+git checkout ten-nhanh             # Chuyển sang nhánh đó
+git checkout -b ten-nhanh          # Tạo + chuyển sang nhánh mới
+
+
+4. Quản lý file thay đổi
+git status                         # Kiểm tra file đã thay đổi
+git add ten_file                   # Đưa 1 file vào vùng staging
+git add .                          # Đưa tất cả file thay đổi vào staging
+git commit -m "Mô tả ngắn gọn"     # Ghi lại thay đổi vào lịch sử
+
+
+5. Gửi code lên GitHub
+git push origin ten-nhanh          # Đẩy nhánh lên GitHub
+
+
+6. Lấy code từ GitHub
+git pull origin ten-nhanh          # Lấy code từ nhánh đó về
+git fetch                          # Lấy thông tin các nhánh từ GitHub (không tự hợp)
+
+
+7. Hợp nhất nhánh (merge)
+git checkout main                  # Về lại nhánh chính
+git pull origin main               # Lấy bản mới nhất từ main
+git merge ten-nhanh                # Hợp nhánh khác vào main
+
+
+8. Xử lý xung đột (nếu có)
+# Sửa file bị conflict thủ công
+git add ten_file
+git commit -m "Resolve conflict"
+
+
+ 9. Xoá nhánh
+ git branch -d ten-nhanh            # Xoá nhánh local
+git push origin --delete ten-nhanh  # Xoá nhánh trên GitHub
+
+
+10. Kiểm tra lịch sử, log
+git log                            # Xem lịch sử commit
+git log --oneline --graph          # Xem sơ đồ các nhánh
+
+
+11. Khôi phục / hoàn tác
+git checkout ten_file              # Huỷ thay đổi trong file
+git reset --hard HEAD              # Reset toàn bộ về commit gần nhất
+
+
+12. Rebase (nâng cao – dùng cẩn thận khi làm nhóm)
+git rebase main                    # Tái áp lại commit sau khi cập nhật main
