@@ -4,9 +4,11 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Trang Chủ - PhoneSell</title>
-  <link rel="stylesheet" href="assets/css/base.css" />
-  <link rel="stylesheet" href="assets/css/header.css" />
-  <link rel="stylesheet" href="assets/css/footer.css" />
+  <link rel="stylesheet" href="assets/css/base.css"/>
+  <link rel="stylesheet" href="assets/css/header.css"/>
+  <link rel="stylesheet" href="assets/css/footer.css"/>
+  <link rel="stylesheet" href="assets/css/main.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 <body>
 
@@ -14,22 +16,104 @@
   <div id="header-include"></div>
 
   <!-- NỘI DUNG CHÍNH -->
-  <main style="margin-top: 70px;">
-    <h1>Chào mừng đến với Tuyengiangmobile</h1>
-    <p>Chuyên cung cấp điện thoại chính hãng, giá tốt</p>
-    <h1>TUYẾN GIANG MOBILE </h1>
-    <p>cập nhật</p>
-    <h2>bo</h2>
-    đây là nôi dung thêm
-    <h1>
-      đây là kiều dũng
-    </h1>
-  </main>
+  <div id="main">
+    <div class="main-slider">
+      <div class="main-slider__list">
+        <img src="assets/images/logo-silder/slider/sl-1.jpg" alt="" class="main-slider__item active">
+        <img src="assets/images/logo-silder/slider/sl-2.jpg" alt="" class="main-slider__item">
+        <img src="assets/images/logo-silder/slider/sl-3.jpg" alt="" class="main-slider__item">
+        <img src="assets/images/logo-silder/slider/sl-4.jpg" alt="" class="main-slider__item">
+        <img src="assets/images/logo-silder/slider/sl-8.jpg" alt="" class="main-slider__item">
+        <img src="assets/images/logo-silder/slider/sl-6.jpg" alt="" class="main-slider__item">
+        <img src="assets/images/logo-silder/slider/sl-9.jpg" alt="" class="main-slider__item">
+      </div>
+      <div class="main-slider__arrow-left">
+        <i class="main-slider__arrow-icon fa-solid fa-chevron-left"></i>
+        <!-- <i class="main-slider__arrow-icon fa-solid fa-angles-left"></i> -->
+      </div>
+      <div class="main-slider__arrow-right">
+        <i class="main-slider__arrow-icon fa-solid fa-chevron-right"></i>
+        <!-- <i class="main-slider__arrow-icon fa-solid fa-angles-right"></i> -->
+      </div>
+      <div class="main-slider__dots">
+        <span class="main-slider__dot active" data-index="0"></span>
+        <span class="main-slider__dot" data-index="1"></span>
+        <span class="main-slider__dot" data-index="2"></span>
+        <span class="main-slider__dot" data-index="3"></span>
+        <span class="main-slider__dot" data-index="4"></span>
+        <span class="main-slider__dot" data-index="5"></span>
+        <span class="main-slider__dot" data-index="6"></span>
+      </div>
+    </div>
+
+    <div class="section-product">
+      <div class="section-product__heading">
+        <h3 class="section-product__heading-text">
+          <span>Điện thoại nổi bật</span>
+        </h3>
+      </div>
+      <div class="section-product__contain">
+        <div class="section-product__list" id="productList">
+          <!-- <div class="section-product__item">
+            <div class="section-product__item_discount">
+              <span>-21%</span>
+            </div>
+            <div class="section-product__item_information">
+              <div class="section-product__item_information_image">
+                <a href="" class="section-product__item_information_link">
+                  <img src="assets/images/phone/iphone-13Pro&13ProMax/ip-13Pro&13ProMax-xanhblue.png" width="100%" alt="">
+                </a>
+                <a href="" class="section-product__item_information_promotions">
+                  <ul class="section-product__item_information_promotions_list">
+                    <li class="section-product__item_information_promotions_item">
+                      Giảm100.000đ cho các bạn sinh viên học sinh
+                    </li>
+                    <li class="section-product__item_information_promotions_item">
+                      Tặng củ sạc kèm dây sạc chính hãng
+                    </li>
+                    <li class="section-product__item_information_promotions_item">
+                      Tặng ốp chống sốc
+                    </li>
+                    <li class="section-product__item_information_promotions_item">
+                      Tặng cường lực chống bám vân tay
+                    </li>
+                  </ul>
+                </a>
+              </div>
+              <div class="section-product__item_information_text">
+                <div class="section-product__item_information_describe">
+                  <p>
+                    <a href="">iPhone 14 Plus – 99% Like New</a>
+                  </p>
+                </div>
+                <div class="section-product__item_information_price">
+                  <span>13,000,000 <span>₫</span></span>
+                </div>
+                <div class="section-product__item_information_evaluate">
+                  <div class="section-product__item_information_evaluate_star">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                  </div>
+                  <a href="" class="section-product__item_information_evaluate_link">
+                    (<span class="count">5 </span> Đánh giá)
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div> -->
+        </div>
+      </div>
+    </div>
+  </div>
 
   <!-- FOOTER -->
   <div id="footer-include"></div>
    
   <script src="assets/js/include.js"></script>
   <script src="assets/js/main.js"></script>
+  <script src="assets/js/product.js"></script>
 </body>
 </html>

@@ -1,15 +1,56 @@
 [
-    {
-      "id": 1,
-      "name": "iPhone 15 Pro Max",
-      "price": 33900000,
-      "image": "assets/images/iphone15.jpg"
-    },
-    {
-      "id": 2,
-      "name": "Samsung Galaxy S24 Ultra",
-      "price": 29900000,
-      "image": "assets/images/s24ultra.jpg"
-    }
+  {
+    "id": 1,
+    "name": "iPhone 14 Plus – 99% Like New",
+    "originalPrice": 16400000,
+    "discountPercent": 21,
+    "finalPrice": 13000000,
+    "image": "assets/images/phone/iphone-14&14plus/ip-14&14plus-tim.jpg",
+    "href": "product-detail.html?id=1",
+    "description": "Màn hình 6.7 inch Super Retina XDR",
+    "promotions": [
+      "Giảm 100.000đ cho các bạn sinh viên học sinh",
+      "Tặng củ sạc kèm dây sạc chính hãng",
+      "Tặng ốp chống sốc",
+      "Tặng cường lực chống bám vân tay"
+    ],
+    "ratingStars": 1,
+    "ratingCount": 0
+  },
+  {
+    "id": 2,
+    "name": "iPhone 13 Pro – 99% LikeNew",
+    "originalPrice": 16400000,
+    "discountPercent": 21,
+    "finalPrice": 12500000,
+    "image": "assets/images/phone/iphone-13Pro&13ProMax/ip-13Pro&13ProMax-xanhblue.png",
+    "href": "product-detail.html?id=1",
+    "description": "Màn hình 6.7 inch Super Retina XDR",
+    "promotions": [
+      "Giảm 100.000đ cho các bạn sinh viên học sinh",
+      "Tặng củ sạc kèm dây sạc chính hãng",
+      "Tặng ốp chống sốc",
+      "Tặng cường lực chống bám vân tay"
+    ],
+    "ratingStars": 3.4,
+    "ratingCount": 5
+  },
+  {
+    "id": 3,
+    "name": "iPhone 13 Pro – 99% LikeNew",
+    "originalPrice": 16400000,
+    "discountPercent": 21,
+    "finalPrice": 12500000,
+    "image": "assets/images/phone/iphone-13Pro&13ProMax/ip-13Pro&13ProMax-xanhblue.png",
+    "href": "product-detail.html?id=1",
+    "description": "Màn hình 6.7 inch Super Retina XDR",
+    "promotions": [
+      "Giảm 100.000đ cho các bạn sinh viên học sinh",
+      "Tặng củ sạc kèm dây sạc chính hãng",
+      "Tặng ốp chống sốc",
+      "Tặng cường lực chống bám vân tay"
+    ],
+    "ratingStars": 3.4,
+    "ratingCount": 5
+  }
 ]
-  

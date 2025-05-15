@@ -63,3 +63,13 @@ git reset --hard HEAD              # Reset toàn bộ về commit gần nhất
 
 12. Rebase (nâng cao – dùng cẩn thận khi làm nhóm)
 git rebase main                    # Tái áp lại commit sau khi cập nhật main
+
+
+
+
+Boxicons icon 
+<!-- Thêm vào <head> -->
+<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+<!-- Dùng -->
+<i class='bx bx-phone'></i> Điện thoại
